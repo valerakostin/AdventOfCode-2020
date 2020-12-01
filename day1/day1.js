@@ -254,7 +254,7 @@ const day1 = () => {
     //     }
     // }
 
-    console.log(`Day1: Report Repair
+console.log(`Day1: Report Repair
 Task 1: ${task1()}
 Task 2: ${task2()} 
 `)
