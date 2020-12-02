@@ -31,9 +31,8 @@ const day2 = () => {
     }
 
 
-    console.log(`Day2 Password Philosophy:
+console.log(`Day2 Password Philosophy:
 Task 1: ${task1()}
-Task 2: ${task2()} 
-`)
+Task 2: ${task2()} `)
 }
 day2();
