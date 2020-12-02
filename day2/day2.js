@@ -17,7 +17,7 @@ const day2 = () => {
         return data.reduce((acc, obj) => {
             const numOfSymbols = [...obj.password]
             .reduce((charCount, c) => c == obj.symbol ? charCount + 1 : charCount, 0)
-            
+
             return numOfSymbols >= obj.low && numOfSymbols <= obj.high ? acc + 1 : acc
         }, 0)
     }
@@ -31,7 +31,7 @@ const day2 = () => {
     }
 
 
-    console.log(`Day2:
+    console.log(`Day2 Password Philosophy:
 Task 1: ${task1()}
 Task 2: ${task2()} 
 `)
