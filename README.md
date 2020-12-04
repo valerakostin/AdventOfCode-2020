@@ -9,4 +9,6 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |Day| Puzzle| Solution|
 |---|:-------|---------|
 |1  |[Report Repair](https://adventofcode.com/2020/day/1)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day1)|
-|2  |[Password Philosophy](https://adventofcode.com/2020/day/2)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day2)|
+|2  |[Toboggan Trajectory](https://adventofcode.com/2020/day/2)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day2)|
+|3  |[Password Philosophy](https://adventofcode.com/2020/day/3)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day3)|
+|4  |[Passport Processing](https://adventofcode.com/2020/day/4)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day4)|
