@@ -23,12 +23,20 @@ const day5 = () => {
     }
 
     const task2 = () => {
-        const seats = new Set(computeSeats())
-        const max = task1();
-        for (let seat = 0; seat < max; seat++) {
-            if (!seats.has(seat) && seats.has(seat - 1) && seats.has(seat + 1))
-                return seat
-        }
+        const seats = computeSeats()
+        const maxSeat = task1()
+        const s = Math.round(Math.log2(maxSeat))
+        const max = Math.pow(2, s)
+        // XOR all numbers 0..1023, the result is missing number
+        let checksum = 0
+        for (let i = maxSeat + 1; i < max; i++)
+            checksum ^= i
+        for (let seat of seats)
+            checksum ^= seat
+        const firstRows = maxSeat - seats.length;
+        for (let i = 0; i < firstRows; i++)
+            checksum ^= i
+        return checksum
     }
 
     console.log(`Day 5: Binary Boarding
