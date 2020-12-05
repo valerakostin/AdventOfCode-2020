@@ -12,3 +12,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |2  |[Toboggan Trajectory](https://adventofcode.com/2020/day/2)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day2)|
 |3  |[Password Philosophy](https://adventofcode.com/2020/day/3)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day3)|
 |4  |[Passport Processing](https://adventofcode.com/2020/day/4)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day4)|
+|5  |[Binary Boarding](https://adventofcode.com/2020/day/5)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day5)|
