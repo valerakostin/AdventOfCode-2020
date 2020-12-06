@@ -1,5 +1,5 @@
 import { input } from './input.js'
-import { collectNewLineSeparatedEntries as collectNewLineSeparatedEntries } from '../utils/utils'
+import { collectNewLineSeparatedEntries } from '../utils/utils'
 
 const day4 = () => {
 
