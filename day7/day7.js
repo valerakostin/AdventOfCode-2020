@@ -2,7 +2,10 @@ import { input } from './input.js'
 
 const day7 = () => {
     const SHINY_GOLD = 'shiny gold'
-    const task1 = () => {
+   
+    const map = computeBagMap()
+
+    function computeBagMap() {
         const map = new Map()
 
         input.split('\n')
@@ -20,18 +23,9 @@ const day7 = () => {
                         children.push({ count: +count, color: color1 + ' ' + color2 })
                     }
                 }
-                for (let child of children) {
-                    const parents = map.get(child.color)
-                    if (parents)
-                        parents.push(parent)
-                    else
-                        map.set(child.color, [parent])
-                }
+                map.set(parent, children);
             })
-
-        const allParents = new Set()
-        collectAllParents(SHINY_GOLD, map, allParents)
-        return allParents.size
+        return map;
     }
 
     function collectAllParents(color, map, allParents) {
@@ -44,7 +38,36 @@ const day7 = () => {
         }
     }
 
+    function collectNestedBags(color, map) {
+        let sum = 0
+        const children = map.get(color)
+        if (children) {
+            for (let child of children)
+                sum += child.count + (child.count * collectNestedBags(child.color, map))
+        }
+        return sum;
+    }
+
+    const task1 = () => {
+        const childParentMap = new Map()
+        for (let [parent, children] of map) {
+            for (let child of children) {
+                const parents = childParentMap.get(child.color)
+                if (parents)
+                    parents.push(parent)
+                else
+                    childParentMap.set(child.color, [parent])
+            }
+        }
+
+        const allParents = new Set()
+        collectAllParents(SHINY_GOLD, childParentMap, allParents)
+
+        return allParents.size
+    }
+
     const task2 = () => {
+        return collectNestedBags(SHINY_GOLD, map)
     }
 
     console.log(`Day 7: Handy Haversacks
@@ -52,3 +75,4 @@ Task 1: ${task1()}
 Task 2: ${task2()} `)
 }
 day7();
+
