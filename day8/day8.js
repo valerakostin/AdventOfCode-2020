@@ -56,7 +56,7 @@ const day8 = () => {
         }
     }
 
-    console.log(`Day 8: 
+    console.log(`Day 8: Handheld Halting
 Task 1: ${task1()}
 Task 2: ${task2()} `)
 }
