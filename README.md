@@ -15,3 +15,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |5  |[Binary Boarding](https://adventofcode.com/2020/day/5)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day5)|
 |6  |[Custom Customs](https://adventofcode.com/2020/day/6)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day6)|
 |7  |[Handy Haversacks](https://adventofcode.com/2020/day/7)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day7)|
+|8  |[Handheld Halting](https://adventofcode.com/2020/day/8)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day8)|
