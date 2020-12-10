@@ -17,3 +17,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |7  |[Handy Haversacks](https://adventofcode.com/2020/day/7)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day7)|
 |8  |[Handheld Halting](https://adventofcode.com/2020/day/8)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day8)|
 |9  |[Encoding Error](https://adventofcode.com/2020/day/9)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day9)|
+|10 |[Adapter Array](https://adventofcode.com/2020/day/10)|[Code Part1](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day10)|
