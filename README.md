@@ -18,4 +18,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |8  |[Handheld Halting](https://adventofcode.com/2020/day/8)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day8)|
 |9  |[Encoding Error](https://adventofcode.com/2020/day/9)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day9)|
 |10 |[Adapter Array](https://adventofcode.com/2020/day/10)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day10)|
-|11 |[Seating System](https://adventofcode.com/2020/day/11)|[Code (Part 1)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day11)|
+|11 |[Seating System](https://adventofcode.com/2020/day/11)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day11)|
