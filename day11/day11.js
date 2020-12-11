@@ -79,7 +79,7 @@ const day11 = () => {
     const task2 = () => {
     }
 
-    console.log(`Day 11:
+    console.log(`Day 11: Seating System
     Task 1: ${task1()}
     Task 2: ${task2()} `)
 }
