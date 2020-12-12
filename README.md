@@ -19,3 +19,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |9  |[Encoding Error](https://adventofcode.com/2020/day/9)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day9)|
 |10 |[Adapter Array](https://adventofcode.com/2020/day/10)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day10)|
 |11 |[Seating System](https://adventofcode.com/2020/day/11)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day11)|
+|12 |[Rain Risk](https://adventofcode.com/2020/day/12)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day12)|
