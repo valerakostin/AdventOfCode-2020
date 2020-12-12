@@ -1,6 +1,6 @@
 # AdventOfCode-2020
 
-Solutions to the Advent Of Code 2020 puzzles in JavaScript
+Solutions to the [Advent Of Code 2020](https://adventofcode.com/2020) puzzles in JavaScript
 
 # Disclaimer
 
