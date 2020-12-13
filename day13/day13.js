@@ -30,7 +30,7 @@ const day13 = () => {
     }
 
     const maxBus = [...buses].sort((a, b) => b.bus - a.bus)[0];
-    const max = 500000000000000;
+    const max = 100000000000000;
 
     const next = Math.ceil(max / maxBus.bus);
     const initial = next * maxBus.bus;
