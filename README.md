@@ -21,3 +21,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |11 |[Seating System](https://adventofcode.com/2020/day/11)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day11)|
 |12 |[Rain Risk](https://adventofcode.com/2020/day/12)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day12)|
 |13 |[Shuttle Search](https://adventofcode.com/2020/day/13)|[Code (Part2 Brute Force)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day13)|
+|14 |[Docking Data](https://adventofcode.com/2020/day/14)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day14)|
