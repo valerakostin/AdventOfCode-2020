@@ -23,3 +23,4 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |13 |[Shuttle Search](https://adventofcode.com/2020/day/13)|[Code (Part2 Brute Force)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day13)|
 |14 |[Docking Data](https://adventofcode.com/2020/day/14)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day14)|
 |15 |[Rambunctious Recitation](https://adventofcode.com/2020/day/15)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day15)|
+|16 |[Ticket Translation](https://adventofcode.com/2020/day/16)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day16)|
