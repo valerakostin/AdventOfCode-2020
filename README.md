@@ -26,6 +26,8 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |16 |[Ticket Translation](https://adventofcode.com/2020/day/16)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day16)|
 |17 |[Conway Cubes](https://adventofcode.com/2020/day/17)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day17)|
 |18 |[Operation Order](https://adventofcode.com/2020/day/18)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day18)|
+|19 |[Monster Messages](https://adventofcode.com/2020/day/19)|[Code (Part1)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day19)|
+|20 |[Jurassic Jigsaw](https://adventofcode.com/2020/day/20)|[Code (Part1)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day20)|
 
 
 
