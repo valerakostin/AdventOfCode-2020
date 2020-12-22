@@ -29,6 +29,7 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |19 |[Monster Messages](https://adventofcode.com/2020/day/19)|[Code (Part1)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day19)|
 |20 |[Jurassic Jigsaw](https://adventofcode.com/2020/day/20)|[Code (Part1)](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day20)|
 |21 |[Allergen Assessment](https://adventofcode.com/2020/day/21)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day21)|
+|22 |[Crab Combat](https://adventofcode.com/2020/day/22)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day22)|
 
 
 
