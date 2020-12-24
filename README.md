@@ -30,7 +30,8 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |20 |[Jurassic Jigsaw](https://adventofcode.com/2020/day/20)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day20)|
 |21 |[Allergen Assessment](https://adventofcode.com/2020/day/21)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day21)|
 |22 |[Crab Combat](https://adventofcode.com/2020/day/22)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day22)|
-|23 |[Crab Cups](https://adventofcode.com/2020/day/2e)||
+|23 |[Crab Cups](https://adventofcode.com/2020/day/23)||
+|24 |[Lobby Layout](https://adventofcode.com/2020/day/24)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day24)|
 
 
 
