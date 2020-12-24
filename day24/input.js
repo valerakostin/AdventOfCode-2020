@@ -1,4 +1,4 @@
-nenwswenweswweenesweeenenwee
+export const input =`nenwswenweswweenesweeenenwee
 nwnwnwnwswenenenwneswneenwnenenwnenwsw
 weweeeeneneseswesesweeesenwnw
 wnwwwwwnwwnewsewnwenwwnww
@@ -400,4 +400,4 @@ nwnwnwwwnwwwsenwneweswswwenwnwsene
 nwnwnwnwwnwnwwnwnwwwswwwnwsewnwe
 swneneeswseenwseneswnweenewnweenenw
 eweeneswenweneenwsweeeene
-nwnwnenwewseseneseneswwnenwnenwnwnwsenew
+nwnwnenwewseseneseneswwnenwnenwnwnwsenew`
