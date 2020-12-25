@@ -32,6 +32,7 @@ In my solutions I tend to experiment with methodologies, programming styles and 
 |22 |[Crab Combat](https://adventofcode.com/2020/day/22)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day22)|
 |23 |[Crab Cups](https://adventofcode.com/2020/day/23)||
 |24 |[Lobby Layout](https://adventofcode.com/2020/day/24)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day24)|
+|25 |[Combo Breaker](https://adventofcode.com/2020/day/25)|[Code](https://github.com/valerakostin/AdventOfCode-2020/tree/main/day25)|
 
 
 
