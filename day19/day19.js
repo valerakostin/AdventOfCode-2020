@@ -1,3 +1,4 @@
+import { fstat } from 'fs';
 import { input } from './input.js';
 
 const day19 = () => {
@@ -119,7 +120,7 @@ const day19 = () => {
     }
   }
 
-  function explodeRules(map) {
+  function explodeRules(map, isRecursive = map => false) {
     const ready = new Map();
 
     while (map.size > 0) {
@@ -132,13 +133,14 @@ const day19 = () => {
         ready.set(rk, rv);
       }
       replaceAvailable(map, ready);
+
+      if (isRecursive(map)) break;
     }
     return ready;
   }
 
   const task1 = () => {
     const data = parseInput();
-
     const ready = explodeRules(data.rules);
     const rules = new Set(
       ready.get(0).map(it => it.join('').split(',').join(''))
@@ -153,7 +155,63 @@ const day19 = () => {
       .reduce((acc, _) => acc + 1, 0);
   };
 
-  const task2 = () => {};
+  const task2 = () => {
+    const data = parseInput();
+
+    data.rules.set(8, [[42], [42, 8]]);
+    data.rules.set(11, [
+      [42, 31],
+      [42, 11, 31],
+    ]);
+
+    const ready = explodeRules(
+      data.rules,
+      m => m.size === 3 && m.has(8) && m.has(11)
+    );
+    const rules42 = new Set(
+      ready.get(42).map(it => it.join('').split(',').join(''))
+    );
+
+    const rules31 = new Set(
+      ready.get(31).map(it => it.join('').split(',').join(''))
+    );
+    let sum = 0;
+    let patternSize = 0;
+    for (let rule of rules42) {
+      patternSize = rule.length;
+      break;
+    }
+    for (let message of data.messages) {
+      let pass42 = [];
+      let pass31 = [];
+      let check42 = true;
+      let isValid = true;
+      for (let i = 0; i < message.length; i = i + patternSize) {
+        let str = message.substring(i, i + patternSize);
+        if (check42) {
+          if (rules42.has(str)) {
+            pass42.push(str);
+          } else if (rules31.has(str)) {
+            check42 = false;
+            pass31.push(str);
+          } else {
+            isValid = false;
+            break;
+          }
+        } else if (rules31.has(str)) {
+          pass31.push(str);
+        } else {
+          isValid = false;
+          break;
+        }
+      }
+      if (isValid && pass42.length > pass31.length && pass31.length > 0) {
+        sum++;
+      }
+    }
+
+    return sum;
+  };
 
   console.log(`Day 19: Monster Messages
 Task 1: ${task1()}
